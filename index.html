@@ -1,11 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/css/command.css" />
+    <link rel="stylesheet" href="./public/css/home.css" />
+  </head>
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <img src="./public/images/icons/logo.png" alt="" />
+
+          <div class="navbar_search_frame">
+            <div class="navbar_search">
+              <div class="select_category">
+                <select name="" id="">
+                  <option value="all" selected>All Category</option>
+                  <option value="computer">Computer</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Search product..." />
+            </div>
+
+            <div class="navbar_search_icon">
+              <img src="./public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <div class="top_menu_box">
+              <div class="box_icon_box">
+                <img src="./public/images/icons/heart.svg" alt="" />
+              </div>
+              <div class="box_menu_info">
+                <span>Wishlist</span>
+                <strong>My items</strong>
+              </div>
+            </div>
+            <div class="top_menu_box">
+              <div class="box_icon_box">
+                <img src="./public/images/icons/profile.svg" alt="" />
+              </div>
+              <div class="box_menu_info">
+                <span>Sign in</span>
+                <strong>Account</strong>
+              </div>
+            </div>
+            <div class="top_menu_box">
+              <div class="box_icon_box">
+                <div class="cart_count">2</div>
+                <img src="./public/images/icons/shopping-cart.svg" alt="" />
+              </div>
+
+              <div class="box_menu_info">
+                <span>$200.99</span>
+                <strong>Total</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="navbar_bottom">
+          <div class="browse_box">
+            <img src="./public/images/icons/browse.svg" alt="" />
+            <span>Browse Categories</span>
+          </div>
+          <div class="navbar_route_menu">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Order</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="sorting_menu">
+            <span>Dael of the Day</span>
+            <span>Hot Deals</span>
+            <span>best Sellers</span>
+            <span>New Arrilavs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

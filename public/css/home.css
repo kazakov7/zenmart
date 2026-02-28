@@ -1,0 +1,230 @@
+.navbar_frame {
+  width: 100%;
+  height: 145px;
+  background-color: rgba(68, 50, 151, 1);
+
+  display: flex;
+  justify-content: center;
+}
+.navbar_frame .container {
+  width: 1320px;
+  height: auto;
+  padding: 20px 0 14px;
+}
+.navbar_frame .navbar_top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_frame .navbar_top img {
+  width: 117px;
+  height: 36px;
+}
+.navbar_top .navbar_search_frame {
+  width: 651px;
+  height: 50px;
+  padding: 10px 0 10px 17px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.navbar_search_frame .navbar_search {
+  width: 600px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 1);
+
+  display: flex;
+}
+.navbar_search .select_category {
+  width: 140px;
+  height: 30px;
+  border-right: 1.5px solid #d6d6d6;
+}
+.select_category select {
+  width: 117px;
+  height: 22px;
+
+  outline: none;
+  border: none;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.navbar_search input {
+  margin-left: 12px;
+  width: 387px;
+  height: 22px;
+  padding: 2px;
+  border: none;
+  outline: none;
+
+  color: rgba(98, 105, 116, 1);
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar_search_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 6px 6px 0px;
+  background: rgba(245, 195, 75, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_search_frame .navbar_search_icon img {
+  width: 20px;
+  height: 20px;
+}
+.nav_top_menu {
+  width: 416.87px;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.nav_top_menu .top_menu_box {
+  width: 140px;
+  height: 50px;
+
+  display: flex;
+}
+.top_menu_box .box_icon_box {
+  width: 55px;
+  height: 50px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.top_menu_box .box_icon_box img {
+  width: 22px;
+  height: 22px;
+  color: rgba(255, 255, 255, 1);
+}
+.box_menu_info {
+  margin-left: 12px;
+  width: 69px;
+  height: 50px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.box_icon_box .cart_count {
+  width: 15.92px;
+  height: 15px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: rgba(245, 195, 75, 1);
+
+  color: rgba(11, 30, 64, 1);
+  font-family: Jost;
+  font-style: Bold;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0%;
+}
+.container hr {
+  margin-top: 20px;
+  border: 1px solid;
+  width: 100%;
+  color: #5747a2;
+}
+.navbar_frame .navbar_bottom {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_bottom .browse_box {
+  width: 185px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #5747a2;
+}
+.browse_box span {
+  margin-left: 10px;
+  width: 133.44px;
+  height: 28px;
+
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar_bottom .navbar_route_menu {
+  width: 670px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.navbar_route_menu a {
+  margin-right: 10px;
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.navbar_route_menu a:nth-child(1) {
+  color: rgba(245, 195, 75, 1);
+}
+.navbar_bottom .sorting_menu {
+  display: flex;
+  align-items: center;
+}
+.sorting_menu span {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
