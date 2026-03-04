@@ -169,6 +169,8 @@
 }
 .services_frame .container {
   justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
 }
 .services_frame .service_box {
   width: 263.06px;
