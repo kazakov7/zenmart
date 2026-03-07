@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "../../Team"
+	},
+	{
+		"path": "../../Mashq cite"
+	},
+	{
+		"path": "../../weather app"
+	},
+	{
+		"path": "../../my web site"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Zenmart"
+  }
+}

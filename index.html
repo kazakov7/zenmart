@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenmart</title>
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,12 +12,19 @@
       rel="stylesheet"
     />
 
+    <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+
+    <!-- Swiper cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <link rel="stylesheet" href="./public/css/command.css" />
@@ -281,13 +289,11 @@
             <h1>Top Selling Products</h1>
             <a>View All</a>
           </div>
-          <div class="products_wrapper">
-            <div class="next_products">
-              <img src="./public/images/icons/next.svg" alt="" />
-            </div>
+          <div class="swiper-button-prev" style="left: 200px"></div>
 
-            <div class="products_frame">
-              <div class="products_card">
+          <div class="products_wrapper swiper" style="width: 1224px">
+            <div class="products_frame swiper-wrapper">
+              <div class="products_card swiper-slide">
                 <div
                   class="product_img"
                   style="
@@ -322,7 +328,7 @@
                 </div>
               </div>
 
-              <div class="products_card">
+              <div class="products_card swiper-slide">
                 <div
                   class="product_img"
                   style="
@@ -357,7 +363,7 @@
                 </div>
               </div>
 
-              <div class="products_card">
+              <div class="products_card swiper-slide">
                 <div
                   class="product_img"
                   style="
@@ -392,7 +398,146 @@
                 </div>
               </div>
 
-              <div class="products_card">
+              <div class="products_card swiper-slide">
+                <div
+                  class="product_img"
+                  style="
+                    background-image: url(./public/images/products/dyson.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <div class="product_hover">
+                    <button>Add to Cart</button>
+                  </div>
+                </div>
+                <div class="product_info">
+                  <span class="product_brand">eastsport</span>
+                  <a href="#">
+                    <p class="product_title">
+                      Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
+                    </p>
+                  </a>
+                  <div class="review">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3.014 reviews</span>
+                  </div>
+                  <div class="product_price">
+                    <b>$32</b>
+                    <span>$42</span>
+                  </div>
+                </div>
+              </div>
+              <div class="products_card swiper-slide">
+                <div
+                  class="product_img"
+                  style="
+                    background-image: url(./public/images/products/watch.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <div class="product_hover">
+                    <button>Add to Cart</button>
+                  </div>
+                </div>
+                <div class="product_info">
+                  <span class="product_brand">Apple</span>
+                  <a href="#">
+                    <p class="product_title">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+                  <div class="review">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3.014 reviews</span>
+                  </div>
+                  <div class="product_price">
+                    <b>$32</b>
+                    <span>$42</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products_card swiper-slide">
+                <div
+                  class="product_img"
+                  style="
+                    background-image: url(./public/images/products/phone.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <div class="product_hover">
+                    <button>Add to Cart</button>
+                  </div>
+                </div>
+                <div class="product_info">
+                  <span class="product_brand">sony</span>
+                  <a href="#">
+                    <p class="product_title">
+                      Apple iPhone 11 64GB Smartphone - Black.
+                    </p>
+                  </a>
+                  <div class="review">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3.014 reviews</span>
+                  </div>
+                  <div class="product_price">
+                    <b>$32</b>
+                    <span>$42</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products_card swiper-slide">
+                <div
+                  class="product_img"
+                  style="
+                    background-image: url(./public/images/products/iRobot.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <div class="product_hover">
+                    <button>Add to Cart</button>
+                  </div>
+                </div>
+                <div class="product_info">
+                  <span class="product_brand">sony</span>
+                  <a href="#">
+                    <p class="product_title">
+                      iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
+                    </p>
+                  </a>
+                  <div class="review">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3.014 reviews</span>
+                  </div>
+                  <div class="product_price">
+                    <b>$32</b>
+                    <span>$42</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products_card swiper-slide">
                 <div
                   class="product_img"
                   style="
@@ -428,41 +573,9 @@
               </div>
             </div>
 
-            <div class="next_products">
-              <img
-                src="./public/images/icons/next.svg"
-                alt=""
-                style="transform: scaleX(-1)"
-              />
-            </div>
+            <div class="swiper-pagination" style="right: 200px"></div>
           </div>
-          <div class="pagination_wrapper">
-            <div class="pagination_main">
-              <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
-              <div class="pagination_dot">
-                <div class="dot">
-                  <span></span>
-                </div>
-                <div class="dot">
-                  <span></span>
-                </div>
-                <div class="dot active">
-                  <span></span>
-                </div>
-                <div class="dot">
-                  <span></span>
-                </div>
-                <div class="dot">
-                  <span></span>
-                </div>
-              </div>
-              <img
-                src="./public/images/icons/arrow-prev_next.svg"
-                alt=""
-                style="transform: scaleX(-1)"
-              />
-            </div>
-          </div>
+          <div class="swiper-button-next" style="right: 200px"></div>
         </div>
       </div>
 
@@ -1001,6 +1114,26 @@
           </div>
         </div>
       </footer> -->
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper(".swiper", {
+          slidesPerView: 4,
+          spaceBetween: 0,
+          loop: true,
+
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
     </div>
   </body>
 </html>
