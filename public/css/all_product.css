@@ -386,7 +386,7 @@
 }
 .selling_products_frame .selling_product_boxes {
   height: 392.1px;
-  background-color: red;
+
   display: flex;
   flex-direction: row;
 }
