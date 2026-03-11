@@ -1,0 +1,204 @@
+.checkout_page {
+  margin-top: 20px;
+  height: 1800px;
+
+  display: flex;
+  justify-content: center;
+}
+.checkout_page .container {
+  flex-direction: column;
+}
+.checkout_page .checkout_head {
+  margin: 60px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.checkout_page .main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main_container form {
+  width: 858px;
+  height: 1292px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main_container form p {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main_container form input,
+select {
+  height: 55px;
+
+  font-size: 15px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  outline: none;
+}
+.main_container select {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.main_container form label {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main_container .form_name {
+  display: flex;
+  justify-content: space-between;
+}
+.main_container .form_name label,
+input {
+  width: 413px;
+}
+.main_container form label,
+input,
+select {
+  width: 100%;
+  display: block;
+}
+.main_container form textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 20px;
+
+  font-size: 15px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  outline: none;
+}
+.main_container .shipping_container {
+  margin-top: 50px;
+}
+.main_container .sidebar_container {
+  width: 422.4px;
+  height: 554px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar_container .sidebar_top {
+  padding: 30px 20px;
+  width: 422px;
+  height: 376px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar_top .order_name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar_top .order_name div {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar_top .hr_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(234, 234, 234, 1);
+}
+.sidebar_top p {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sidebar_top div {
+  display: flex;
+  justify-content: space-between;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sidebar_container .sidebar_bottom {
+  width: 422.4px;
+  height: 66px;
+  display: flex;
+}
+.sidebar_bottom input {
+  width: 15.09px;
+  height: 16px;
+
+  border: 1px solid rgba(4, 30, 66, 1);
+  border-radius: 4px;
+}
+.sidebar_bottom p {
+  margin-left: 10px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.sidebar_container button {
+  margin-top: 20px;
+  padding: 15px 35px;
+
+  width: 100%;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgba(245, 195, 75, 1);
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+}
