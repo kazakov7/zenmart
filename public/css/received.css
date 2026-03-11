@@ -1,0 +1,128 @@
+.checkout_page {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.checkout_page .container {
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+.checkout_page .checkout_head {
+  margin-top: 50px;
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkout_page .checkout_head p {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+}
+.checkout_page .checkout_head span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.checkout_page .checkout_head img {
+  width: 80.13px;
+  height: 80px;
+}
+.checkout_page .order_info {
+  width: 100%;
+  height: 132px;
+  padding: 35px 170px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 1px dashed rgba(98, 105, 116, 1);
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+.order_info div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.order_info div span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.order_info div strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.order_details {
+  width: 100%;
+  height: 511px;
+  padding: 70px 60px;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order_details .order_name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.order_details .order_name div {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+}
+.order_details .hr_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(234, 234, 234, 1);
+}
+.order_details p {
+  margin-bottom: 10px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+}
+.order_details div {
+  display: flex;
+  justify-content: space-between;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}

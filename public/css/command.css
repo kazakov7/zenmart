@@ -237,7 +237,7 @@ p {
   font-weight: 500;
   color: white;
 }
-.navbar_frame .navbar_route_menu a:nth-child(1) {
+.navbar_route_menu a.yellow {
   color: rgba(245, 195, 75, 1);
 }
 .navbar_frame .navbar_bottom .sorting_menu {

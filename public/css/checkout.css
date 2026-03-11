@@ -47,10 +47,10 @@
   margin-bottom: 20px;
 }
 
-.main_container form input,
-select {
+.main_container form input {
+  margin-top: 10px;
   height: 55px;
-
+  padding: 10px 20px;
   font-size: 15px;
   border: 1px solid rgba(234, 234, 234, 1);
   border-radius: 6px;
@@ -60,6 +60,11 @@ select {
 .main_container select {
   padding: 10px 20px;
   margin-top: 10px;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  outline: none;
 }
 .main_container form label {
   color: rgba(4, 30, 66, 1);
