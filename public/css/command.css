@@ -15,7 +15,6 @@ p {
 }
 * {
   box-sizing: border-box;
-  transition: 0.3s;
 }
 /* Navbar style */
 .container {

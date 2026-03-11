@@ -1,0 +1,316 @@
+.product_nav {
+  margin-top: 20px;
+}
+/* Cart Style */
+.cart_page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.cart_page .container {
+  flex-direction: column;
+}
+.cart_page .cart_head {
+  padding: 0px 0;
+  width: 100%;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart_page .cart_head > span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+}
+.cart_page .progres_bar {
+  position: relative;
+  width: 424.29px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart_page .progres_bar img {
+  position: absolute;
+
+  width: 37.71px;
+  height: 40px;
+  bottom: -17px;
+  cursor: pointer;
+}
+
+.cart_page .progres_bar span {
+  color: rgba(0, 0, 0, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cart_page .progress {
+  width: 424.29px;
+  height: 6px;
+
+  display: flex;
+
+  background-color: rgba(243, 245, 246, 1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.progres_bar .progress-line {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(245, 195, 75, 1);
+}
+.cart_page .table_frame {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+.cart_page .table_frame table {
+  width: 872.14px;
+  height: 619px;
+  border: 1px solid #ddd;
+
+  border-collapse: collapse;
+  overflow: hidden;
+}
+.table_frame table thead {
+  width: 870.26px;
+  height: 70px;
+
+  background: rgba(243, 245, 246, 1);
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.table_frame table thead th:nth-child(1) {
+  padding-left: 20px;
+  text-align: left;
+}
+.table_frame table thead th {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+}
+.table_frame table tbody {
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.table_frame table tbody tr {
+  border-bottom: 1px solid #ddd;
+  height: 100px;
+}
+.table_frame table tbody td {
+  width: 120px;
+  padding: 20px 0;
+  text-align: center;
+  vertical-align: top;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.table_frame table tbody td:nth-child(1) img {
+  width: 90.3px;
+  height: 100px;
+}
+.table_frame table tbody td:nth-child(1) {
+  width: 390px;
+  padding-left: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: left;
+  line-height: 2;
+}
+.table_frame table tbody p {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.table_frame .btn_quantity {
+  width: 100px;
+  height: 42px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 20px;
+  border: 1px solid rgba(234, 234, 234, 1);
+}
+.table_frame .btn_quantity span {
+  width: 27.99px;
+  height: 30px;
+  color: rgba(4, 30, 66, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.table_frame .btn_quantity strong {
+  width: 8.4px;
+  height: 22px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+}
+.table_frame .table_bottom {
+  margin-top: 20px;
+  width: 880.71px;
+  height: 55px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.table_bottom .table_bott_left {
+  padding: 20px;
+  width: 360px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px dashed rgba(98, 105, 116, 1);
+  border-radius: 6px;
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+}
+.table_bottom .table_bott_left a {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+.table_frame .table_bott_btn {
+  width: 380px;
+  height: 55px;
+  display: flex;
+  gap: 20px;
+}
+.table_frame .table_bott_btn button:nth-child(1) {
+  width: 200px;
+  height: 52px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  outline: none;
+
+  border: 2px solid rgba(245, 195, 75, 1);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+}
+.table_frame .table_bott_btn button:nth-child(2) {
+  padding: 15px 30px;
+  width: 150px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgba(245, 195, 75, 1);
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+}
+.table_frame .cart_sidebar {
+  width: 422px;
+  height: 418px;
+  padding: 50px 28px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+.cart_sidebar > span {
+  color: rgba(4, 30, 66, 1);
+  margin-bottom: 15px;
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+}
+.table_frame .cart_sidebar div {
+  display: flex;
+  justify-content: space-between;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.table_frame .cart_sidebar button {
+  margin-top: 20px;
+  padding: 15px 35px;
+
+  width: 365.83px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgba(245, 195, 75, 1);
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+}
