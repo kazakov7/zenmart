@@ -203,6 +203,14 @@
   font-size: 15px;
   font-weight: 500;
 }
+.table_bottom .table_bott_left input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.table_bottom .table_bott_left input::placeholder {
+  color: rgba(4, 30, 66, 1);
+}
 .table_bottom .table_bott_left a {
   color: rgba(4, 30, 66, 1);
 
@@ -217,6 +225,9 @@
   height: 55px;
   display: flex;
   gap: 20px;
+}
+.table_frame .table_bott_btn button:nth-child(1):hover {
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.6);
 }
 .table_frame .table_bott_btn button:nth-child(1) {
   width: 200px;
@@ -238,6 +249,7 @@
   font-style: Medium;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
 }
 .table_frame .table_bott_btn button:nth-child(2) {
   padding: 15px 30px;
@@ -249,7 +261,6 @@
 
   border: 1px solid rgba(245, 195, 75, 1);
   border-radius: 6px;
-  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
   background: rgba(245, 195, 75, 1);
 
   color: rgba(4, 30, 66, 1);
@@ -258,6 +269,7 @@
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
 }
 .table_frame .cart_sidebar {
   width: 422px;
@@ -290,6 +302,9 @@
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
+}
+.cart_sidebar div .free {
+  color: rgba(233, 74, 74, 1);
 }
 .table_frame .cart_sidebar button {
   margin-top: 20px;
