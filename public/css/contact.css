@@ -34,7 +34,7 @@
 .contact_content > p {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -42,7 +42,7 @@
 .contact_content > span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -68,7 +68,7 @@
 .contact_content .follow_us > p {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -112,7 +112,7 @@ form textarea:focus {
 form label {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
 }
@@ -128,7 +128,7 @@ form label {
   background: rgba(245, 195, 75, 1);
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -159,7 +159,7 @@ form textarea {
 .offices_section .offices_head p {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -175,7 +175,7 @@ form textarea {
 .offices_section .offices_head span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -200,7 +200,7 @@ form textarea {
 .offices_country .office_info p {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -208,7 +208,7 @@ form textarea {
 .offices_country .office_info span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -217,7 +217,7 @@ form textarea {
 .offices_country .office_info a {
   position: relative;
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -243,7 +243,7 @@ form textarea {
   margin: 50px 0;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -271,9 +271,9 @@ form textarea {
   justify-content: space-between;
 }
 .faq_wrapper .faq_item strong,
-span {
+.faq_wrapper .faq_item span {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Medium;
   font-size: 28px;
   font-weight: 500;
@@ -285,7 +285,7 @@ span {
 }
 .faq_item p {
   color: rgba(4, 30, 66, 1);
-  font-family: Jost;
+  font-family: var(--font);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
