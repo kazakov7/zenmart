@@ -15,6 +15,7 @@ p {
 }
 * {
   box-sizing: border-box;
+  transition: 0.2s;
 }
 .hr_line {
   margin: 30px 0;
